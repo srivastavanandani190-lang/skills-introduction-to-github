@@ -45,12 +45,14 @@ section {
 
 .register-button {
   display: inline-block;
-  text-decoration: none;
   background: var(--google-blue);
   color: #fff;
   padding: 12px 20px;
   border-radius: 999px;
   font-weight: 700;
+  border: none;
+  font: inherit;
+  cursor: pointer;
 }
 
 .register-button:hover,
